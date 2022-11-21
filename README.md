@@ -1,4 +1,4 @@
-# :heavy_check_mark: Lista de Tarefas
+# :money_with_wings: Gerenciador Financeiro
 Projeto desenvolvido durante aulas práticas de ReactJS do curso da [B7Web](https://b7web.com.br/fullstack/?ref=I24108426I&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrF6-0Pw1qPxDOdtvTaBsTQJG_93ZtMC1SlajUx3ySXg3McgRB3l2R4aAhEVEALw_wcB).
 
 Adicionei `Tema Escuro` e `estilizações` póprias.
@@ -18,7 +18,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Install dependences
+Installs dependences
 
 ### `npm start`
 
