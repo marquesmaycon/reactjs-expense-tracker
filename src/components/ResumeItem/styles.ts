@@ -6,11 +6,11 @@ export const Container = styled.div`
 export const Title = styled.div`
     text-align: center;
     font-weight: bold;
-    color: #888;
+    color: ${({theme})=> theme.colors.tertiary};
     margin-bottom: 5px;
 `
 export const Info = styled.div<{ txtColor?: string }>`
     text-align: center;
     font-weight: bold;
-    color: ${({ txtColor }) => txtColor ?? '#000'};
+    color: ${({ txtColor, theme }) => txtColor ?? theme.colors.primary};
 `

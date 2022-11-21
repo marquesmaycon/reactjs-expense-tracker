@@ -1,18 +1,22 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    min-height: 100vh;
+    background-color: ${({theme})=> theme.bg.tertiary};
+`;
 
 export const Header = styled.div`
-    background-color: darkblue;
-    height: 150px;
+    background-color: ${({theme})=> theme.bg.primary};
+    height: 130px;
     text-align: center;
+    padding-top: 30px;
 `;
 
 export const HeaderText = styled.h1`
     margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     color: #FFF;
-    padding-top: 30px;
 `;
 
 export const Body = styled.div`
