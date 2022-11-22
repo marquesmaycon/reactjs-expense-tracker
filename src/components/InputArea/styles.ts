@@ -36,7 +36,7 @@ export const Container = styled.div`
         background: linear-gradient(90deg, rgba(0,35,255,1) 0%, rgba(102,0,204,1) 86%);
         color: ${({ theme }) => theme.colors.secondary};
         border: 0;
-        border-radius: 5px;
+        border-radius: 8px;
         transition: all ease .5s;
         cursor: pointer;
 

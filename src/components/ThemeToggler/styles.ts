@@ -5,7 +5,7 @@ export const Button = styled.button`
     background-color: ${({theme})=> theme.colors.primary};
     color: ${({theme})=> theme.bg.tertiary};
     border: 0;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: all ease .5s;
     top: 50%;
 

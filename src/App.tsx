@@ -62,7 +62,7 @@ export const App = () => {
     <ThemeProvider theme={theme}>
       <C.Container>
         <C.Header>
-          <C.HeaderText>Sistema Financeiro</C.HeaderText>
+          <C.HeaderText>Gerenciador Financeiro</C.HeaderText>
           <ThemeToggler text={theme === lightTheme ? 'Tema Escuro' : 'Tema Claro'} toggleTheme={toggleTheme}/>
         </C.Header>
 

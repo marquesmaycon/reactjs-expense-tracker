@@ -1,8 +1,8 @@
 export const darkTheme = {
     bg: {
         primary: '#5900cc',
-        secondary: '#212121',
-        tertiary: '#000',
+        secondary: '#3d3f43',
+        tertiary: '#27282F',
     },
     colors: {
         primary: '#FFF',
@@ -17,8 +17,8 @@ export const darkTheme = {
 
 export const lightTheme = {
     bg: {
-        primary: '#02d3ff',
-        secondary: '#FFF',
+        primary: '#00ff9a',
+        secondary: '#EFEFEF',
         tertiary: '#CCC',
     },
     colors: {
