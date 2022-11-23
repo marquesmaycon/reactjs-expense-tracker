@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const Container = styled.div`
+    width: 86.5%;
+    text-align: end;
+`
+
 export const Button = styled.button`
     padding: 5px 10px;
     background-color: ${({theme})=> theme.colors.primary};
@@ -7,9 +12,10 @@ export const Button = styled.button`
     border: 0;
     border-radius: 8px;
     transition: all ease .5s;
-    top: 50%;
+    opacity: .2;
 
     &:hover {
         border-radius: 15px;
+        opacity: 1;
     }
 `

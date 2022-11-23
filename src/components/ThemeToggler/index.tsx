@@ -4,9 +4,12 @@ type Props = {
     toggleTheme: () => void
 }
 export const ThemeToggler = ({text, toggleTheme}: Props) => {
+    
     return (
-        <C.Button onClick={toggleTheme}>
-            {text}
-        </C.Button>
+        <C.Container>
+            <C.Button onClick={toggleTheme}>
+                {text}
+            </C.Button>
+        </C.Container>
     );
 }

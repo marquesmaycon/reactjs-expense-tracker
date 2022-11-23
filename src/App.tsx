@@ -7,6 +7,7 @@ import { filterListByMonth, getCurrentMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
 import { InfoArea } from './components/InfoArea';
 import { InputArea } from './components/InputArea';
+import { Footer } from './components/Footer';
 
 import * as C from './App.styles';
 import { ThemeProvider } from 'styled-components';
@@ -61,6 +62,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <C.Container>
+
         <C.Header>
           <C.HeaderText>Gerenciador Financeiro</C.HeaderText>
           <ThemeToggler text={theme === lightTheme ? 'Tema Escuro' : 'Tema Claro'} toggleTheme={toggleTheme}/>
@@ -78,6 +80,8 @@ export const App = () => {
           <InputArea onAdd={handleAddItem} />
 
           <TableArea list={filteredList} />
+
+          <Footer />
 
         </C.Body>
       </C.Container>
